@@ -1,59 +1,62 @@
-# ModernAngular
+Project Title: Modern Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+A modern Angular application developed following the "Modern Angular" series by Loiane Groner. This project focuses on implementing the latest industry standards, including standalone components, reactive state management, and optimized performance.
+🚀 Key Features
 
-## Development server
+    Standalone Components: Optimized architecture without NgModules.
 
-To start a local development server, run:
+    Angular Signals: Granular reactivity for better performance.
 
-```bash
-ng serve
-```
+    New Control Flow: Clean and performant @if, @for, and @switch syntax.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+    Responsive UI: Styled using [mention your CSS framework, e.g., Angular Material, Tailwind, or Bootstrap].
 
-## Code scaffolding
+    Clean Code: Best practices for folder structure and service-oriented architecture.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🛠️ Tech Stack
 
-```bash
-ng generate component component-name
-```
+    Framework: Angular 21.0.5
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+    State Management: Signals / RxJS
 
-```bash
-ng generate --help
-```
+    Styling: Angular Material
 
-## Building
+    Backend (Mock): none for while
 
-To build the project run:
+📥 Installation & Setup
 
-```bash
-ng build
-```
+    Clone the repository:
+    Bash
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+git clone https://github.com/ricajust/modernAngular
 
-## Running unit tests
+Navigate to the directory:
+Bash
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+cd modernAngular
 
-```bash
-ng test
-```
+Install dependencies:
+Bash
 
-## Running end-to-end tests
+npm install
 
-For end-to-end (e2e) testing, run:
+Run the application:
+Bash
 
-```bash
-ng e2e
-```
+    ng serve
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+    Open your browser at http://localhost:4200/.
 
-## Additional Resources
+📂 Project Structure
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+A quick overview of the modern structure used in this project:
+
+    src/app/core: Singleton services, guards, and interceptors.
+
+    src/app/shared: Reusable components, pipes, and directives.
+
+    src/app/features: Main modules/features of the application.
+
+✍️ Credits
+
+This project was built during the study of the Modern Angular playlist by Loiane Groner https://youtube.com/playlist?list=PLGxZ4Rq3BOBqJfR254ZMuBfFRMeyr162U&si=Kl61CurV1xmtnUxG.
